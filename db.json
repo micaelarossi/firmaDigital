@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v7.json": 
+  "FirmaSimple_v8.json": 
 
 {
 	"title": "Firma simple v2",
@@ -34,7 +34,7 @@
         },
 		"fileOrigins": {
     			"remote": {
-				"URI": "https://alaska.gov/kids/pub/{$FILE_NAME}",
+				"URI": "https://alaska.gov/kids/pub/{$FILE_ID}",
 				"method": "GET",
 				"fileList": "${documentos}",
 				"headers": {
