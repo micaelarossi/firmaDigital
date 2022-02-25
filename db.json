@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v14.json": 
+  "FirmaSimple_v15.json": 
 
 {
 	"title": "Firma simple v2",
@@ -34,7 +34,7 @@
         },
 		"fileOrigins": {
     			"remote": {
-				"URI": "http://10.201.4.28:8080/api/resourceref/55053204/DEMANDA_10091002772__.PDF?token=k9eut50sc8ruvv45g6h",
+				"URI": "http://10.201.4.28:8080/api/resourceref/55053204/DEMANDA_10091002772__.PDF?token=46c56bess92ga0kv6ka",
 				"method": "GET",
 				"fileList": "${documentos}",
 				"headers": {
