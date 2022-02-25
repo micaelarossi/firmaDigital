@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v22.json": 
+  "FirmaSimple_v23.json": 
 
 {
 	"title": "Firma simple v2",
@@ -42,7 +42,7 @@
 				}
 			},
 			"local": {
-       			"name": "studentpostcard.pdf"
+       			"name": "${FILENAME}"
        		  }
 			},
 		},
