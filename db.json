@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v23.json": 
+  "FirmaSimple_v24.json": 
 
 {
 	"title": "Firma simple v2",
@@ -40,11 +40,7 @@
 				"headers": {
 					"Accept": "application/pdf"
 				}
-			},
-			"local": {
-       			"name": "${FILENAME}"
-       		  }
-			},
+			}
 		},
 		"fileDestination": {
 			"remote": {
@@ -56,6 +52,10 @@
 					"firmado": true,
 					"idArchivo": "{$FILE_ID}"
 				}
+			},
+			"local": {
+       			"name": "${FILE_ID}"
+       		  }
 			}
 		},
 		"interfaz": {
