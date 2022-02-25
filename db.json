@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v19.json": 
+  "FirmaSimple_v20.json": 
 
 {
 	"title": "Firma simple v2",
@@ -44,15 +44,7 @@
 		},
 		"fileDestination": {
 			"local": {
-				"URI": "C:/FirmaDigital",
-				"name": "archivito",
-				"method": "POST",
-				"fileField": "archivo",
-				"formFields": {
-					"tramite": "$numeroTramite",
-					"firmado": true,
-					"idArchivo": "{$FILE_ID}"
-				}
+				"name": "studentpostcard.pdf"
 			}
 		},
 		"interfaz": {
