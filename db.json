@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v17.json": 
+  "FirmaSimple_v18.json": 
 
 {
 	"title": "Firma simple v2",
@@ -39,18 +39,6 @@
 				"fileList": "${documentos}",
 				"headers": {
 					"Accept": "application/pdf"
-				}
-			}
-		},
-		"fileDestination": {
-			"remote": {
-				"URI": "${urlBase}/api/recibo/firmado",
-				"method": "POST",
-				"fileField": "archivo",
-				"formFields": {
-					"tramite": "$numeroTramite",
-					"firmado": true,
-					"idArchivo": "{$FILE_ID}"
 				}
 			}
 		},
