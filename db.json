@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v24.json": 
+  "FirmaSimple_v17.json": 
 
 {
 	"title": "Firma simple v2",
@@ -52,10 +52,6 @@
 					"firmado": true,
 					"idArchivo": "{$FILE_ID}"
 				}
-			},
-			"local": {
-       			"name": "${FILE_ID}"
-       		  }
 			}
 		},
 		"interfaz": {
