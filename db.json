@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v18.json": 
+  "FirmaSimple_v19.json": 
 
 {
 	"title": "Firma simple v2",
@@ -39,6 +39,19 @@
 				"fileList": "${documentos}",
 				"headers": {
 					"Accept": "application/pdf"
+				}
+			}
+		},
+		"fileDestination": {
+			"local": {
+				"URI": "C:/FirmaDigital",
+				"name": "archivito",
+				"method": "POST",
+				"fileField": "archivo",
+				"formFields": {
+					"tramite": "$numeroTramite",
+					"firmado": true,
+					"idArchivo": "{$FILE_ID}"
 				}
 			}
 		},
