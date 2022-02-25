@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v3.json": 
+  "FirmaSimple_v5.json": 
 
 
 						{
@@ -35,7 +35,12 @@
 						        },
 								"fileOrigins": {
 						    			"remote": {
-										"URI": "http://10.201.4.28:8080/resource/content/CId-kbeeidoc-657304/DEMANDA_10091002772__.PDF"
+												"URI": "http://10.201.4.28:8080/api/{$FILE_ID}",
+												"method": "GET",
+												"fileList": "${documentos}",
+												"headers": {
+													"Accept": "application/pdf"
+												}
 									}
 								},
 								"fileDestination": {
