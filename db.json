@@ -35,12 +35,7 @@
 						        },
 								"fileOrigins": {
 						    			"remote": {
-										"URI": "${urlBase}/api/recibo/descarga?idRecibo={$FILE_ID}",
-										"method": "GET",
-										"fileList": "${documentos}",
-										"headers": {
-											"Accept": "application/pdf"
-										}
+										"URI": "http://10.201.4.28:8080/api/resourceref/55053203/DEMANDA_10091002768__.PDF"
 									}
 								},
 								"fileDestination": {
