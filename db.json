@@ -1,5 +1,5 @@
 {
-  "FirmaSimple_v21.json": 
+  "FirmaSimple_v22.json": 
 
 {
 	"title": "Firma simple v2",
@@ -40,7 +40,11 @@
 				"headers": {
 					"Accept": "application/pdf"
 				}
-			}
+			},
+			"local": {
+       			"name": "studentpostcard.pdf"
+       		  }
+			},
 		},
 		"fileDestination": {
 			"remote": {
